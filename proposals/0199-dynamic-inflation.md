@@ -1,5 +1,5 @@
 ---
-simd: '0199'
+simd: '0200'
 title: Dynamic Inflation
 authors:
   - A2KDefi
@@ -24,15 +24,15 @@ The inflation rate on Solana should be as low as required to enable more than
 
 The inflation schedule will be implemented on a dynamic curve: 
 
-- the minimum inflation on the curve would be ~1.5%~ 0%
-- the maximum inflation on the curve would be ~8%~ <current Solana curve inflation rate> 
+- the minimum inflation on the curve would be 0%
+- the maximum inflation on the curve would be the current Solana curve inflation rate (4.8%)
 
 The inflation shall adjust upwards or downwards at the start of each epoch. 
 
 Upon implementation, inflation would start at 4.8% (this is the current inflation) and:
 
-- inflation would decrease by 15% if the total Solana staked was more than 50%
-- inflation would increase by 15% if the total Solana staked was less than 50%.
+- inflation would decrease by .05 if the total Solana staked was more than 50%. 
+- inflation would increase by .05 if the total Solana staked was less than 50%.
 
 The curve will be bound by :
 
