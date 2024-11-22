@@ -25,7 +25,7 @@ The inflation rate on Solana should be as low as required to enable more than
 The inflation schedule will be implemented on a dynamic curve: 
 
 - the minimum inflation on the curve would be ~1.5%~ 0%
-- the maximum inflation on the curve would be ~8%~ 4.8%
+- the maximum inflation on the curve would be ~8%~ <current Solana curve inflation rate> 
 
 The inflation shall adjust upwards or downwards at the start of each epoch. 
 
