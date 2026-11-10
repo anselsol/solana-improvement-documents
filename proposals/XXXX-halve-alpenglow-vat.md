@@ -112,18 +112,7 @@ transitions use the current amount.
 
 ## Alternatives Considered
 
-- Keep the VAT at ~0.8 SOL/day. Keeps the burn; the fixed cost stays the same
-  as SFDP support shrinks.
-- Remove the VAT. Removes the only economic admission control. Out of scope.
-- Stake-weighted or tiered VAT, raised in the
-  [SIMD-0326 forum thread](https://forum.solana.com/t/simd-0326-proposal-for-the-new-alpenglow-consensus-protocol/4236).
-  A SIMD-0326 author noted there that tiers encourage splitting validators and
-  that a stake-weighted VAT lets large operators split stake to push out small
-  ones. A flat cut avoids both issues.
-- A larger cut, such as the 0.135 SOL/day figure above. A bigger change, and
-  harder to agree on. A 50% cut is a smaller step that can be measured first.
-- An adaptive VAT tied to admitted-set size relative to the 2,000 cap. Worth a
-  follow-up SIMD, especially once Rotor or MCP change the cost of a large set.
+Nil
 
 ## Impact
 
